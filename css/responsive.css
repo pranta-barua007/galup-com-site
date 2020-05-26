@@ -1,0 +1,60 @@
+/* Services Design */
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 100%;
+  }
+ .internet-service-box-2{
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
+		padding: 15px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.carousel-item img{
+		width: 100vw;
+		height: 50vh;
+	}
+	.service-box{
+		max-width: 100%;
+	}
+	.internet-service-box-2{
+		display: grid;
+		grid-template-columns: 100%;
+		padding: 15px;
+	}
+	.busines-nms{
+		display: grid;
+		grid-template-columns: 100%;
+		padding: 15px;
+	}
+	
+}
+
+@media screen and (max-width:480px) {
+	.carousel-item img{
+		width: 100vw;
+		height: 40vh;
+	}
+	.support-bar-box-title h5,span{
+		font-size: 10px;
+	}
+	.service-box{
+    max-width: 100%;
+   }
+   .internet-service-box-2{
+		display: grid;
+		grid-template-columns: 100%;
+		padding: 15px;
+	}
+	.business-tlpns{
+		display: grid;
+		grid-template-columns: 100%;
+		padding: 15px;
+	}
+	.busines-nms{
+		display: grid;
+		grid-template-columns: 100%;
+		padding: 15px;
+	}
+}

@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Fjalla+One&display=swap');
+
+body{
+	margin:0px;
+	padding:0px;
+}
+body::-webkit-scrollbar { 
+    display: none; 
+} 
+
+.title{
+	width:100%;
+	text-align:center;
+	font-family: 'Fjalla One', sans-serif;
+	padding: 0px 0px 10px;
+}
+.title span{
+	color:#032D67;
+}
+.title h2{
+	color: #E95C0A;
+	font-size: 46px;
+	font-weight: 300;
+	position: relative;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.title h2::after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	height: 4px;
+	border-radius: 1px;
+	background: orangered;
+	left: 0;
+	bottom: -10px;
+} 
+.title-1{
+	width:100%;
+	text-align:left;
+	font-family: 'Fjalla One', sans-serif;
+}
+.title-1 h2{
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	position: relative;
+	display: inline-block;
+}
+.title-1 h2::after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	height: 4px;
+	border-radius: 1px;
+	background: orangered;
+	left: 0;
+	bottom: -5px;
+}
+.title-2{
+	width:100%;
+	text-align:center;
+	font-family: 'Fjalla One', sans-serif;
+}
+.title-2 h2{
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	position: relative;
+	display: inline-block;
+}
+.title-2 h2::after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	height: 4px;
+	border-radius: 1px;
+	background: orangered;
+	right: 0;
+	bottom: -5px;
+}
+.service-box{
+	text-align: center;
+	padding:15px 0px;
+	background-color: rgba(255,255,255, 0.8);
+}
+.content{
+	margin: 10px;
+    align-self: center;
+    text-align: center;
+	font-family: 'Questrial', sans-serif
+}
+.content i{
+	font-size: 40px;
+	color: #E95C0A;
+}
+.content p{
+	font-family: 'Questrial', sans-serif;
+	font-size: 14px;
+}
+.small-button button{
+	width:32%;
+	text-align:center;
+	margin:2px 0px 0px 0px;
+	padding: 2px;
+	background:#032D67;
+	border:2px solid #032D67;
+	border-radius:5px;
+	color:#fffafa;
+	cursor:pointer;
+	font-family: 'Questrial', sans-serif;
+	font-size:22px;
+}
+.small-button button:hover{
+	background:none;
+	color:#032D67;
+}
+.large-button button{
+	width:100%;
+	text-align:center;
+	margin:2px 0px 0px 0px;
+	padding: 2px;
+	background:#032D67;
+	border:2px solid #032D67;
+	border-radius:5px;
+	color:#fffafa;
+	cursor:pointer;
+	font-family: 'Questrial', sans-serif;
+	font-size:22px;
+}
+.large-button button:hover{
+	background:none;
+	color:#032D67;
+}
+/* Navbar Design */
+.my-nav{
+    position: fixed;
+    width: 100%; 
+    z-index: 999;
+    background: transparent;
+	font-family : 'Fjalla One', sans-serif;
+}
+.my-nav form button{
+	background:none;
+	margin:0px 5px;
+	padding:2px;
+	border:0px transparent;
+}
+.my-nav form button i{
+	font-size:20px;
+}
+.my-nav form button a{
+	color:#fffafa;
+}
+.my-nav form button:hover a i{
+	color:#E95C0A;
+}
+.nav-item a{   
+    color:#E95C0A;
+}
+.bg-dark{
+    background-color: rgba(0,0,0, 0.1) !important;
+}
+/* Slider Design */
+.my-carousel{
+    position: absolute  !important;
+    top: 0;	
+	position: relative  !important;
+	font-family : 'Questrial', sans-serif;
+}
+.carousel-item img{
+	width: 100vw;
+	height: 100vh;
+}
+
+/* Support bar Design */
+.support-bar{
+	height: 100%;
+	padding: 15px;
+	text-align: center;
+}
+.support-bar h1{
+	margin-top: 15px;
+	font-family : 'Fjalla One', sans-serif;
+	font-size : 50px;
+	color: #fffafa;
+}
+.support-bar-box{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+	text-align: center;
+	padding:15px;
+	background-color: #032D67;
+	font-family: 'Questrial', sans-serif;
+}
+.support-bar-box span{
+	font-size: 30px;
+	color: #fffafa;
+}
+.support-bar-box h5{
+	color: #fffafa;
+}
+.support-bar-box p{
+	color: #fffafa;
+}
+.support-bar-box a{
+	color: #fffafa;
+}
+.support-bar-box a i{
+	font-size: 40px;	
+}
+.support-bar-box a:hover  i{
+	color: #E95C0A;
+}
+
+
+/* Internet Design */
+.internet-service{
+	
+	padding: 15px;
+	text-align: center;
+	background: url(../images/bg-1.jpg);
+    background-size: cover;
+}
+.internet-service-box-1{
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;	
+}
+.internet-service-box-1 img{
+	width: 232px;
+	height: 232px;
+}
+.internet-service-box-2{
+	display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+	text-align: center;
+	padding: 15px;
+	font-family: 'Fjalla One', sans-serif;
+}
+.internet-cov table{
+	width:100%;	
+}
+.cov-area-box{
+	height:200px;
+}
+.cov-area{
+	height:100%;
+	overflow-y: scroll;
+}
+
+/* Business Services Design */
+.business-service{
+	height: 100%;
+	padding: 15px !important; 
+	background: url(../images/car.png);
+    background-size: cover;
+}
+.business-service-box{
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+}
+.business-tlpns{
+	display: grid;
+    grid-template-columns: 50% 50%;
+	text-align: center;
+	padding: 15px;
+}
+.busines-nms{
+	display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+	text-align: center;
+	padding: 15px;
+}
+/* about-us design */
+.about-us{
+	height: 100%;
+	padding: 15px !important; 
+}
+.about-us-box-1 img{
+	width: 332px;
+	height: 132px;
+}
+.box{
+	height:150px;
+	padding:20px 0px;
+}
+.dropdown-box box{
+	font-size: 10px;
+}
+			#test{
+				background-color:#6b76ff;
+				height:50px;
+				padding: 10px 15px;
+				cursor:pointer;
+				display:grid;
+				grid-template-columns: 50% 50%;
+			}
+			#test1{
+				height:100%;
+				background-color:#a5aeff;
+				display:none;
+			}
+			#test2{
+				background-color:#a26ea1;
+				height:50px;
+				padding: 10px 15px;
+				cursor:pointer;
+				display:grid;
+				grid-template-columns: 50% 50%;
+			}
+			#test3{
+				height:100%;
+				background-color:#6b76ff;
+				display:none;
+			}
+			#test4{
+				height:50px;
+				background-color:orange;
+				height:50px;
+				padding: 10px 15px;
+				cursor:pointer;
+				display:grid;
+				grid-template-columns: 50% 50%;
+			}
+			#test5{
+				height:100%;
+				background-color:#26baee;
+				display:none;
+			}
+
+
+/* CONTACT US Design */
+.contact-title h2{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 26px;
+	border-bottom: 5px solid orangered;
+}
+.foot-about h5{
+	font-family: 'Fjalla One', sans-serif;
+	margin:5px;	
+}
+.foot-about-img-box{
+	width:215px;
+	height:90px;
+	background-image:url(../images/bg-2.png);
+	background-size:cover;
+}
+.foot-about-desc p{
+	font-family: 'Questrial', sans-serif;
+	font-size:11px;
+}
+.foot-about-desc button{
+	text-align:right;
+	margin:20px 0px;
+	background:transparent;
+	border:0px transparent;
+	color:#1eafed;
+	cursor:pointer;
+}
+.contact-info .info ul{
+	list-style: none;
+	padding: 0px;
+}
+.contact-info h5{
+	font-family: 'Fjalla One', sans-serif;
+	margin:5px;
+}
+.contact-info .info h4{
+	font-family: 'Questrial', sans-serif;
+}
+.contact-info i{
+	color:#E95C0A;
+}
+.foot-input h5{
+	font-family: 'Fjalla One', sans-serif;
+	margin:5px;
+}
+.foot-input input,textarea{
+	width:100%;
+	margin:5px 0px 5px 0px;
+	padding:2px 5px;
+	background:transparent;
+	border:3px solid #032D67;
+	border-radius:2px;
+	color:#000;
+}
+.foot-input button{
+	width:100%;
+	text-align:center;
+	margin:5px 0px;
+	padding: 5px;
+	background:#032D67;
+	border:2px solid #032D67;
+	border-radius:5px;
+	color:#fffafa;
+	cursor:pointer;
+	font-family: 'Questrial', sans-serif;
+	font-size:22px;
+}
+.foot-input button:hover{	
+	background:transparent;
+	color:#032D67;
+}
+.our-map{
+	padding:10px;
+}
+	/* END BAR */
+.end-bar{
+	background-color:#032D67;
+	color:#fffafa;
+	font-size:15px;
+	padding:2px;
+}
